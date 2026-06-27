@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us | Siba Toughened Private Limited</title>
+<meta name="description" content="Get in touch with Siba Toughened Private Limited for toughened glass enquiries, bulk orders, and dealer partnerships in Odisha.">
+<link rel="icon" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="overlay" id="overlay"></div>
+<div class="mobile-menu" id="mobileMenu">
+  <button class="mobile-close" id="mobileClose">&times;</button>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="products.html">Products</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="contact.html">Contact</a>
+  <a class="btn btn-primary" href="contact.html" style="justify-content:center;">Get a Quote</a>
+</div>
+
+<header id="header">
+  <div class="nav">
+    <a href="index.html" class="brand"><img src="assets/logo.png" alt="Siba Toughened logo">Siba Toughened</a>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="products.html">Products</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+    <div class="nav-cta">
+      <a href="tel:+919439953552" class="btn btn-ghost">+91 94399 53552</a>
+      <a href="contact.html" class="btn btn-primary">Get a Quote</a>
+      <div class="burger" id="burger"><span></span><span></span><span></span></div>
+    </div>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">Home</a> / Contact</div>
+    <h1>Contact & Registration</h1>
+    <p>Reach out for technical specifications, bulk pricing, dealer enquiries, or project support.</p>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="container">
+    <div class="contact-wrap">
+      <div class="contact-info">
+        <div class="cinfo-item reveal">
+          <div class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-4.5-7-10a7 7 0 1114 0c0 5.5-7 10-7 10z"/><circle cx="12" cy="11" r="2.5"/></svg></div>
+          <div><h4>Manufacturing Unit</h4><p>Plot No 2274, Kanheipur, Bhagatpur, Tangi, Cuttack, Odisha 754022</p></div>
+        </div>
+        <div class="cinfo-item reveal">
+          <div class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.12.81.3 1.61.54 2.39a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.69-1.11a2 2 0 012.11-.45c.78.24 1.58.42 2.39.54A2 2 0 0122 16.92z"/></svg></div>
+          <div><h4>Phone</h4><p>+91 94399 53552 &nbsp;|&nbsp; 0671 254 9552</p></div>
+        </div>
+        <div class="cinfo-item reveal">
+          <div class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z"/><path d="M4 4l8 9 8-9"/></svg></div>
+          <div><h4>Email</h4><p>sibatoughened@gmail.com</p></div>
+        </div>
+        <div class="cinfo-item reveal">
+          <div class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
+          <div><h4>Registration</h4><p>CIN: U231010D2025PTC051399<br>GSTIN: 21ABRCS8468F1ZV</p></div>
+        </div>
+
+        <div class="map-wrap reveal">
+          <iframe src="https://www.google.com/maps?q=Kanheipur,Bhagatpur,Tangi,Cuttack,Odisha+754022&output=embed" allowfullscreen loading="lazy"></iframe>
+        </div>
+      </div>
+
+      <form class="contact-form reveal" id="contactForm">
+        <div class="alert alert-success" id="successMsg" style="display:none;">Thank you! Your enquiry has been received. Our team will contact you shortly.</div>
+        <div class="alert alert-error" id="errorMsg" style="display:none;"></div>
+
+        <div class="form-row">
+          <input type="text" name="name" id="f-name" placeholder="Full Name *" required>
+          <input type="tel" name="phone" id="f-phone" placeholder="Phone Number *" required>
+        </div>
+        <div class="form-row">
+          <input type="email" name="email" id="f-email" placeholder="Email Address">
+          <select name="interest" id="f-interest" required>
+            <option value="" disabled selected>I'm interested in...</option>
+            <option>Toughened Glass</option>
+            <option>Door & Partition Glass</option>
+            <option>Laminated Glass</option>
+            <option>Insulated / Double-Glazed Glass</option>
+            <option>Wholesale Supply</option>
+            <option>Custom Fabrication</option>
+            <option>Dealer / Distributor Enquiry</option>
+          </select>
+        </div>
+        <textarea name="message" id="f-message" placeholder="Tell us about your project / requirement..."></textarea>
+        <button type="submit" class="btn btn-primary" id="submitBtn" style="justify-content:center;">Send Enquiry</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container footer-grid">
+    <div>
+      <div class="footer-brand"><img src="assets/logo.png" alt="logo">Siba Toughened Pvt Ltd</div>
+      <p style="font-size:.88rem;max-width:300px;">Manufacturing toughened safety glass & wholesale glass products in Odisha — building on 20+ years of trade legacy.</p>
+      <div class="social">
+        <a href="#" aria-label="Facebook"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg></a>
+        <a href="#" aria-label="Instagram"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>
+        <a href="#" aria-label="LinkedIn"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/><path d="M10 9v12M10 13a4 4 0 018 0v8"/></svg></a>
+      </div>
+    </div>
+    <div>
+      <h4>Company</h4>
+      <ul>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="about.html#why">Why Choose Us</a></li>
+        <li><a href="about.html#team">Leadership</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Products</h4>
+      <ul>
+        <li><a href="products.html#toughened">Toughened Glass</a></li>
+        <li><a href="products.html#laminated">Laminated Glass</a></li>
+        <li><a href="products.html#insulated">Insulated Glass</a></li>
+        <li><a href="products.html#fabrication">Custom Fabrication</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <ul>
+        <li>Plot No 2274, Kanheipur, Bhagatpur, Tangi, Cuttack, Odisha 754022</li>
+        <li>+91 94399 53552</li>
+        <li>sibatoughened@gmail.com</li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>© 2026 Siba Toughened Private Limited. All rights reserved.</span>
+    <span>CIN: U231010D2025PTC051399 | GSTIN: 21ABRCS8468F1ZV</span>
+  </div>
+</footer>
+
+<button class="back-top" id="backTop" aria-label="Back to top">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+</button>
+
+<script src="js/main.js"></script>
+<script src="js/contact.js"></script>
+</body>
+</html>

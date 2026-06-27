@@ -1,0 +1,9 @@
+{
+  "name": "stplodisha-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Siba Toughened Private Limited website",
+  "dependencies": {
+    "nodemailer": "^6.9.13"
+  }
+}
