@@ -288,6 +288,23 @@ form.contact-form{display:grid;gap:16px;background:var(--white);border:1px solid
 }
 .contact-form textarea{min-height:110px;resize:vertical;}
 .contact-form input:focus,.contact-form select:focus,.contact-form textarea:focus{outline:none;border-color:var(--royal);background:#fff;}
+
+/* Compact contact page */
+.page-hero-sm{padding:130px 0 40px;}
+.contact-compact{padding:48px 0 80px;}
+.contact-compact .contact-wrap{gap:36px;}
+.contact-compact .contact-info{gap:14px;}
+.contact-compact .cinfo-item{padding:14px 16px;gap:12px;}
+.contact-compact .cinfo-item .ic{width:36px;height:36px;}
+.contact-compact .cinfo-item h4{font-size:.85rem;margin-bottom:2px;}
+.contact-compact .cinfo-item p{font-size:.82rem;}
+.contact-compact form.contact-form{padding:24px;gap:12px;}
+.contact-compact .contact-form textarea{min-height:80px;}
+.contact-compact .contact-form input,
+.contact-compact .contact-form select,
+.contact-compact .contact-form textarea{padding:11px 14px;font-size:.88rem;}
+.map-wrap-sm iframe{height:170px;}
+.map-wrap-sm{margin-top:14px;}
 .form-msg{font-size:.85rem;font-weight:600;display:none;}
 
 /* FOOTER */
